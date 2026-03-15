@@ -1,0 +1,6 @@
+When LoginButton.Click
+   if TextboxUsername.Text = "user@example.com" AND TextboxPassword.Text = "1234"
+       ShowMessage("Login successful")
+       OpenScreen("Dashboard")
+   else
+       ShowMessage("Invalid login")
